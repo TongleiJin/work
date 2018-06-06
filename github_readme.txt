@@ -8,6 +8,12 @@
 		git commit -m "add guides for operation of github"
 		git push
 
+0.2 Remove file:
+	git clone https://github.com/TongleiJin/work.git
+	git rm tt.txt 
+	git commit -m "rm test file tt.txt"
+	git push
+
 1. create a new repository on the command line
 		echo "# datasheet" >> README.md
 		git init
